@@ -6,14 +6,38 @@
 .col{
   height:100%;
   width:49%;
-  border: 1.3px solid white;
+  border: 1.3px solid #C6FA01;
   display: inline-block;
   float:left;
 }
 body{
-background-color:lightpink;
-color:black;
+background-image: url(https://wallpaperplay.com/walls/full/0/e/f/233988.jpg);
+color:#D7F205;
 text-align: center;
-font-family: Comic sans MS;
+font-family: Verdana;
 font-size: 25px;
+}
+img.rounded-corners {
+
+  border-radius: 120px 20px 120px 20px;
+
+}
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color:#B2223E;
+}
+
+/* mouse over link */
+a:hover {
+  color:#558C03;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
